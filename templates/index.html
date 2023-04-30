@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Upload Form</title>
+  </head>
+  <body>
+    <h1>File Upload Form</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <br>
+      <br>
+      <label for="output">Select Output Type:</label>
+      <br>
+      <input type="radio" id="profile" name="output" value="profile">
+      <label for="profile">Pandas Profiling Report</label>
+      <br>
+      <input type="radio" id="automl" name="output" value="automl">
+      <label for="automl">AutoML</label>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

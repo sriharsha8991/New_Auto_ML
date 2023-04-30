@@ -1,0 +1,11 @@
+numpy 
+pandas
+pandas_profiling
+dill
+flask
+evalml
+flaml
+scikit-learn
+openpyxl
+#-e .
+ 
